@@ -40,6 +40,12 @@ p {
     color:#6f28cc;
 }
 
+.word_emphasis {
+    color:#6f28cc;
+}
+
+
+
 
 /* NAV */
 
@@ -113,8 +119,8 @@ p {
     margin-right:24px;
 }
 
-.word_emphasis {
-    color:#6f28cc;
+.header_para{
+    margin:32px 0;
 }
 
 .header_img--wrapper{
@@ -132,6 +138,18 @@ p {
 
 .header_sub-para {
     color:#a0aec0;
+    margin-top: 80px;
+    font-size: 12px;
+}
+
+.header_sub-img--wrapper{
+    margin-top: 16px;
+}
+
+.header_input{
+    padding: 16px;
+    border-radius: 500px;
+    border:2px solid rgb(229, 231, 235);
 }
 
 
