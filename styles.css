@@ -500,6 +500,13 @@ p {
 }
 
 
+.button_price{
+    width: 80%;
+    padding: 16px;
+    border-radius: 500px;
+    background: linear  -gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
 /* TESTIMONIALS */
 
 .testimonials_container{
