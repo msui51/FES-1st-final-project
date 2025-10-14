@@ -66,8 +66,13 @@ p {
 }
 
 .nav_logo {
-    width: 48px;
+    width: 40px;
     margin-right: 8px;
+}
+
+.nav_title{
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .nav_list {
