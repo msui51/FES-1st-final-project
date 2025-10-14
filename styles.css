@@ -469,6 +469,47 @@ p {
     padding: 32px;
 }
 
+.pricing_item:nth-child(1) .pricing_item--duration,
+.pricing_item:nth-child(3) .pricing_item--duration{
+    color: #a0aec0;
+}
+
+.pricing_item:nth-child(1) .button_price{
+        color: #f7fafc;
+        border: none;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.pricing_item:nth-child(2){
+    border:none;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.pricing_item:nth-child(2) .pricing_item--top,
+.pricing_item:nth-child(2) .pricing_item--middle{
+    border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.pricing_item:nth-child(2) .pricing_item--name,
+.pricing_item:nth-child(2) .pricing_item--price,
+.pricing_item:nth-child(2) .pricing_item--duration,
+.pricing_item:nth-child(2) .pricing_item--target,
+.pricing_item:nth-child(2) .pricing_item--feature{
+    color: #f7fafc;
+}
+
+.pricing_item:nth-child(2) .button_price{
+    background-color: #f7fafc;
+    color:#6f28cc;
+    border:none;
+}
+
+.pricing_item:nth-child(3) .button_price{
+        color: #f7fafc;
+        border:none;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 .pricing_item--name{
     font-size:20px;
     font-weight:bold;
@@ -506,6 +547,8 @@ p {
 
 
 .button_price{
+    font-weight: 700;
+    letter-spacing: 0.05em;
     width: 80%;
     padding: 16px;
     border-radius: 500px;
